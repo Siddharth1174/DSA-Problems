@@ -3,7 +3,7 @@ https://www.codingninjas.com/studio/problems/implement-upper-bound_8165383?utm_s
 
 //Code:
 int upperBound(vector<int> &arr, int x, int n){
-	// Write your code here.	
+	// Write your code here.	  
 	int low = 0;
 	int high = n-1;
 	int ans= n;
