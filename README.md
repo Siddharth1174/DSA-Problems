@@ -1,1 +1,1 @@
-In this Repository, I will be adding all the DSA Problems that I Solve.
+In this Repository, I will be adding solution to all the DSA Problems I Solve.
