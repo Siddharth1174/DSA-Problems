@@ -1,3 +1,6 @@
+//Problem Link:
+https://www.codingninjas.com/studio/problems/lower-bound_8165382?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
+//Code
 int lowerBound(vector<int> arr, int n, int x) {
 	// Write your code here
 	int low=0;
@@ -15,9 +18,4 @@ int lowerBound(vector<int> arr, int n, int x) {
 	}
 	return ans;
 }
-public static void main(String[] args) {
-        int[] arr = {3, 5, 8, 15, 19};
-        int n = 5, x = 9;
-        int ind = lowerBound(arr, n, x);
-        System.out.println("The lower bound is the index: " + ind);
-}
+
