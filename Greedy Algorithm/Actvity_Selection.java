@@ -1,3 +1,4 @@
+//Note: This problem is as same as the "N meetings in a room problem" previously done in this topic.
 //Problem Link:
 https://www.geeksforgeeks.org/problems/activity-selection-1587115620/1
 //Solution:
