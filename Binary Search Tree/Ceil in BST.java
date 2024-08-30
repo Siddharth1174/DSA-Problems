@@ -1,0 +1,25 @@
+//Problem Link:
+https://www.geeksforgeeks.org/problems/implementing-ceil-in-bst/1
+//Solution:
+class Tree {
+    // Function to return the ceil of given number in BST.
+    int findCeil(Node root, int key) {
+        int ceil = -1;
+        if (root == null) return -1;
+        // Code here
+        while(root!=null){
+            if(root.data==key){
+                ceil = root.data;
+                return ceil;
+            }
+            if(key>root.data){
+                root = root.right;
+            }
+            else{
+                ceil = root.data;
+                root = root.left;
+            }
+        }
+        return ceil;
+    }
+}
