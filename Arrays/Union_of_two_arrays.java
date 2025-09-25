@@ -1,28 +1,17 @@
 //Question: https://www.geeksforgeeks.org/problems/union-of-two-arrays3538/1
 class Solution {
-    public int[] intersection(int[] nums1, int[] nums2) {
-        HashSet<Integer> set1 = new HashSet<>();
-        HashSet<Integer> result = new HashSet<>();
+    public static ArrayList<Integer> findUnion(int[] a, int[] b) {
+        // code here
+        HashSet<Integer> unionSet = new HashSet<>();
 
-        //Adding nums1 elements to set1 :
-        for(int num: nums1){
-            set1.add(num);
+        for(int num: a){
+            unionSet.add(num);
         }
-
-        //Checking for common ones
-        for(int num: nums2){
-            if(set1.contains(num)){
-                result.add(num);
-            }
+        
+        for(int num: b){
+            unionSet.add(num);
         }
-
-        //converting result set to an array
-        int ans[] = new int[result.size()];
-        int i = 0;
-        for(int num: result){
-            ans[i++]=num;
-        }
-
-        return ans;
+        ArrayList<Integer> result = new ArrayList<>(unionSet);
+        return result;
     }
 }
